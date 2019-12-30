@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+ 
+body {
+    font-family: "Lato", sans-serif;
+}
+ 
+/*侧边栏选择器*/
+.sidenav {
+    height: 100%;
+    width: 200px; /*原始宽度*/
+    position: fixed;
+    /*z-index、top、left共同控制侧栏的悬浮（上方1，下方-1）*/
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 60px;
+}
+ 
+/*侧边栏标签选择器*/
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+ 
+/*侧栏标签和关闭按钮光标的效果*/
+.sidenav a:hover{
+    color: #f1f1f1;
+}
+ 
+/*主体内容*/
+#main {
+    margin-left: 200px;
+    padding: 16px;
+}
