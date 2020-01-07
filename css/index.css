@@ -36,5 +36,15 @@ body {
 /*主体内容*/
 #main {
     margin-left: 200px;
-    padding: 16px;
+    padding: 0px 16px 16px 16px;
+}
+
+#main #banner{
+    background-color: green;
+    border: 3px solid red;
+}
+
+#main #pageContent {
+    //background-color: green;
+    //border: 3px solid red;
 }

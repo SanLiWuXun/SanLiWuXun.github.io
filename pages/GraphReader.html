@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Data reader</title>
+	<link rel="stylesheet" type="text/css" href="../css/GraphReader.css">
+	<script src="../js/jquery-3.2.1.slim.min.js" type="text/javascript"></script>
+	<script src="../js/GraphReader.js" type="text/javascript"></script>
+</head>
+<body>
+	<div id="dataReader">
+		<div id="titleName">
+			<h1>Data Reader</h1>
+		</div>
+		<div id="imagePart">
+			
+			<img id="photo" src="">
+		</div>
+		<div id="dataReaderPart">
+			<div id="showXY">show x,y</div>			<!--test code-->
+			<p>Step 1. Press 'Choose File' button to choose the image you want to read data from</p>
+			<input type="file" id="imageSelecter" onchange="showImg(this.id,'photo')">
+			<br/>
+			<p>Step 2. Input min and max value for x/y axis, then press 'get axis limits' button:</p>
+			<input type="number" id="xmin" class="axisLimits" value="0"> <---Xmin </input>
+			<input type="number" id="xmax" class="axisLimits" value="1"> <---Xmax </input>
+			<input type="number" id="ymin" class="axisLimits" value="0"> <---Ymin </input>
+			<input type="number" id="ymax" class="axisLimits" value="1"> <---Ymax </input>
+			<button id="getAxisLimits">get axis limits</button>
+			<div id="axislimits">show info</div>			<!--test code-->
+			<p>Step 3. Press 'scale x and y axis' to start scaling x/y axis:</p>
+			<button id="scaleAxis">scale x and y axis</button>
+		<!--	<div id="showinfo">show info</div>			test code-->
+			<div id="showstatus">system status</div>
+			<p>Step 4. Press 'start read data' to start read data: (double click to choose)</p>
+			<button id="startReadData">start read data</button>
+			<p>Step 5. Press 'show results' to show results you have chosen:</p>
+			<button id="showResults">show results</button>
+			<div id="results"></div>
+		</div>
+	</div>
+</body>
+</html>

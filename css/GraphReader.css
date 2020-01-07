@@ -1,0 +1,53 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{
+    margin:0;
+    padding:0;
+}
+
+#dataReader{
+    position: absolute;
+    margin: 10px 10px;
+    width: 1150px;
+    height: auto;
+    border-style: solid solid solid solid;
+}
+
+#titleName{
+    position: relative;
+    text-align: center;
+}
+
+#imagePart{
+    position: relative;
+    float: left;
+    margin: 0px 25px 0px 0px;
+}
+
+#photo{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    display: block;
+}
+#dataReaderPart{
+    position: relative;
+    float: left;
+    width: 600px;
+    margin: 0px 0px 0px 0px;
+}
+
+#showXY,#axislimits,#showinfo{
+    background: blue;
+    text-align: center;
+}
+
+#showstatus{
+    background: red;
+}
+
+.axisLimits{
+    width: 60px;
+}
+
+#getAxisLimits,#scaleAxis,#startReadData,#showResults{
+    display: block;
+}
