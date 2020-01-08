@@ -3,12 +3,13 @@
  
 body {
     font-family: "Lato", sans-serif;
+    background-color: AntiqueWhite;
 }
  
 /*侧边栏选择器*/
 .sidenav {
     height: 100%;
-    width: 200px; /*原始宽度*/
+    width: 210px; /*原始宽度*/
     position: fixed;
     /*z-index、top、left共同控制侧栏的悬浮（上方1，下方-1）*/
     z-index: 1;
@@ -35,20 +36,15 @@ body {
  
 /*主体内容*/
 #main {
-    margin-left: 200px;
+    margin-left: 210px;
     padding: 0px 16px 16px 16px;
 }
 
 #main #banner{
-    background-color: green;
+    background-color: LightSkyBlue;
     border: 3px solid red;
     height: 100px;
     position: relative;
-}
-
-#main #pageContent {
-    //background-color: green;
-    //border: 3px solid red;
 }
 
 #flipClock {
