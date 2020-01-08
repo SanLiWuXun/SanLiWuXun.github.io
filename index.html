@@ -6,12 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Welcome to SanLiWuXun's website</title>
     <script src="js/index.js" type="text/javascript"></script>
-	<link rel="stylesheet" href="css/index.css" type="text/css" />
+    <link rel="stylesheet" href="css/index.css" type="text/css" />
 </head>
-<body onload="load_page('pages/About.html')">
+<body onload="load_page('pageContent','pages/About.html');load_page('flipClock','plugins/flipClock.html')">
     <div id="mySidenav" class="sidenav">
-        <a href="javascript:load_page('pages/About.html');">About</a>
-        <a href="javascript:load_page('pages/GraphReader.html');">GraphReader</a>
+        <a href="javascript:load_page('pageContent','pages/About.html');">About</a>
+        <a href="javascript:load_page('pageContent','pages/GraphReader.html');">GraphReader</a>
         <a href="#">Clients</a>
         <a href="#">Contact</a>
     </div>
@@ -19,6 +19,7 @@
        <div id="banner">
           <h2 style="color:red">Welcome to SanLiWuXun's website</h2>
           <p style="color:red">建设中！</p>
+          <div id="flipClock"></div>
        </div>
        <div id="pageContent">
        </div>
