@@ -20,20 +20,6 @@ body {
     padding-top: 60px;
 }
  
-/*侧边栏标签选择器*/
-.sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-}
- 
-/*侧栏标签和关闭按钮光标的效果*/
-.sidenav a:hover{
-    color: #f1f1f1;
-}
- 
 /*主体内容*/
 #main {
     margin-left: 210px;
@@ -54,4 +40,33 @@ body {
     height: 100px;
     width: 500px;
     transform: scale(0.8);
+}
+ 
+/*侧边栏标签选择器*/
+.sidenav a, span{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    left: 0px;
+}
+ 
+/*侧栏标签和关闭按钮光标的效果*/
+.sidenav a:hover{
+    color: #f1f1f1;
+}
+
+.sidenav span:hover{
+    color: #f1f1f1;
+}
+
+ul, li{
+    padding: 0;
+    margin: 0;
+}
+
+.L2Title{
+    padding: 0px 0px 0px 26px;
+    display: block;
 }

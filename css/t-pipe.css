@@ -1,0 +1,50 @@
+#pic{
+	transform: scale(0.36,0.36);
+}
+
+#pipe{
+	position: absolute;
+	z-index: 1;
+	left: 0px;
+	top: 0px;
+}
+
+#valve{
+	position: absolute;
+	z-index: 2;
+	left: 410px;
+	top: 362px;
+	/*transform: rotate(270deg);*/
+}
+
+#flow-left{
+	position: absolute;
+	z-index: 3;
+	left: -22px;
+	top: 11px;
+	display: block;
+}
+
+#flow-right{
+	position: absolute;
+	z-index: 3;
+	left: 550px;
+	top: 11px;
+	display: none;
+}
+
+#flow-top{
+	position: absolute;
+	z-index: 3;
+	left: -22px;
+	top: 12px;
+	display: none;
+}
+
+#flow-bottom{
+	position: absolute;
+	z-index: 3;
+	left: 550px;
+	top: 24px;
+	display: none;
+}
