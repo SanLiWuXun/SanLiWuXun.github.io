@@ -1,0 +1,210 @@
+#pic{
+	transform: scale(0.4,0.4);
+}
+
+#background{
+	position: absolute;
+	z-index: 1;
+	left: 0px;
+	top: 0px;
+}
+
+#tracer-valve-close{
+	position: absolute;
+	z-index: 2;
+	left: 11px;
+	top: 196px;
+	display: block;
+}
+
+#tracer-valve-open{
+	position: absolute;
+	z-index: 2;
+	left: 11px;
+	top: 196px;
+	display: none;
+}
+
+#water-main{
+	position: absolute;
+	z-index: 0;
+	left: 180px;
+	top: 698px;
+	display: block;
+	transform: scaleY(0.0);
+}
+
+#water-side{
+	position: absolute;
+	z-index: 0;
+	left: 6px;
+	top: 1016px;
+	display: block;
+	transform: scaleY(0.0);
+}
+
+#water-overflow{
+	position: absolute;
+	z-index: 0;
+	left: 148px;
+	top: 698px;
+	display: none;
+}
+
+#inlet-valve-close{
+	position: absolute;
+	z-index: 1;
+	left: 656px;
+	top: 1156px;
+	display: block;
+}
+
+#inlet-valve-open{
+	position: absolute;
+	z-index: 1;
+	left: 656px;
+	top: 1156px;
+	display: none;
+}
+
+#overflow-valve-close{
+	position: absolute;
+	z-index: 1;
+	left: -308px;
+	top: 1016px;
+	display: none;
+}
+
+#overflow-valve-open{
+	position: absolute;
+	z-index: 1;
+	left: -308px;
+	top: 1016px;
+	display: block;
+}
+
+#flowrate-full-valve-open{
+	position: absolute;
+	z-index: 0;
+	left: 556px;
+	top: 932px;
+	display: none;
+}
+
+#flowrate-full-valve-close{
+	position: absolute;
+	z-index: 0;
+	left: 556px;
+	top: 932px;
+	display: none;
+}
+
+#flowrate-empty-valve-close{
+	position: absolute;
+	z-index: 0;
+	left: 556px;
+	top: 932px;
+	display: none;
+}
+
+#flowrate-empty-valve-open{
+	position: absolute;
+	z-index: 0;
+	left: 556px;
+	top: 932px;
+	display: block;
+}
+
+#flowrate-controller{
+	font-size: 52px;
+	font-weight: bolder;
+	position: absolute;
+	left: 1420px;
+	top: 1076px;
+	display: none;
+	-webkit-user-select:none;
+    -moz-user-select:none;
+	-ms-user-select:none;
+    user-select:none;
+}
+
+#laminar-flow{
+	position: absolute;
+	z-index: 0;
+	left: 750px;
+	top: 1076px;
+	display: none;
+}
+
+#transition-flow{
+	position: absolute;
+	z-index: 0;
+	left: 758px;
+	top: 1061px;
+	display: none;
+}
+
+#turbulent-flow{
+	position: absolute;
+	z-index: 0;
+	left: 656px;
+	top: 1041px;
+	display: none;
+	transform: scaleX(0.84);
+}
+
+#vel-distribution-0{
+	position: absolute;
+	z-index: 0;
+	left: 756px;
+	top: 1041px;
+	display: none;
+}
+
+#vel-distribution-1{
+	position: absolute;
+	z-index: 0;
+	left: 866px;
+	top: 1041px;
+	display: none;
+}
+
+#vel-distribution-2{
+	position: absolute;
+	z-index: 0;
+	left: 996px;
+	top: 1041px;
+	display: none;
+}
+
+#vel-distribution-3{
+	position: absolute;
+	z-index: 0;
+	left: 1126px;
+	top: 1041px;
+	display: none;
+}
+
+#vel-distribution-4{
+	position: absolute;
+	z-index: 0;
+	left: 1266px;
+	top: 1041px;
+	display: none;
+}
+
+#vel-distribution-5{
+	position: absolute;
+	z-index: 0;
+	left: 1436px;
+	top: 1041px;
+	display: none;
+}
+
+#vel-distribution-6{
+	position: absolute;
+	z-index: 0;
+	left: 1572px;
+	top: 1041px;
+	display: none;
+}
