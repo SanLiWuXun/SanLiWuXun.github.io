@@ -1,5 +1,7 @@
 #pic{
-	transform: scale(0.4,0.4);
+	transform: scale(0.36,0.36);
+	position: relative;
+	left: 100px;
 }
 
 #background{
