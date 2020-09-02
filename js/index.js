@@ -1,5 +1,7 @@
 function load_page(targetIDName, sourcePageLoaded) {
-	var content='<object type="text/html" data='+sourcePageLoaded+' width="100%" height="600px"></object>'
+	var contentHeight=document.body.clientHeight-100;
+	//var content='<object type="text/html" data='+sourcePageLoaded+' width="100%" height="100%"></object>'
+	var content='<object type="text/html" data='+sourcePageLoaded+' width="100%" height="' +contentHeight+ 'px"></object>'
 	document.getElementById(targetIDName).innerHTML = content;
 }
 

@@ -21,6 +21,11 @@
     				<li class="L2Title"><a style="font-size: 18px;" href="http://172.96.227.102:2512">JupyterNotebook</a></li>
     			</ul>
     		</li>
+            <li><span onclick="foldTitle()">小项目</span>
+                <ul style="display: none;">
+                    <li class="L2Title"><a style="font-size: 18px;" href="javascript:load_page('pageContent','pages/小项目/receipt_reader_ver1.html');">票据自动处理-1.0</a></li>
+                </ul>
+            </li>
     		<li><span onclick="foldTitle()">实验相关</span>
     			<ul style="display: none;">
     				<li class="L2Title"><a style="font-size: 18px;" href="javascript:load_page('pageContent','pages/t-pipe.html');">三通管原理</a></li>
@@ -54,6 +59,7 @@
           <p style="color:red">一个基于个人兴趣的小站 :)</p>
           <div id="flipClock"></div>
        </div>
+       <!--如果现实出现问题的话，可能是load_page()函数中给定的宽度和高度不合适导致的-->
        <div id="pageContent">
        </div>
     </div>
